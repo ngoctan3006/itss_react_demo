@@ -13,7 +13,6 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Navigate to="/posts" />} />
           <Route path="/posts" element={<Home />} />
-          <Route path="/posts/search" element={<Home />} />
           <Route path="/posts/:id" element={<PostDetails />} />
         </Routes>
       </Container>
